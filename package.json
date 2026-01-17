@@ -1,0 +1,21 @@
+{
+  "name": "campaign_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+  "worker": "node src/queue/worker.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bullmq": "^5.66.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ioredis": "^5.9.2",
+    "mysql2": "^3.16.1",
+    "nodemailer": "^7.0.12"
+  }
+}
